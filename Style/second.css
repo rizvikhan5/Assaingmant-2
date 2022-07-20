@@ -1,0 +1,220 @@
+    /* Google Font  */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+    body{
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+    
+    }
+    
+        /* COVER  */
+    
+    .Head{
+        display: flex;
+        margin-top: 50px;
+        padding: 50px ;
+        margin-left: 150px;
+        gap: 50px;
+        border: 1px solid slategrey;
+        border-radius: 25px;
+        background-color: rebeccapurple;
+        height: 350px;
+        width: 1000px;
+    }  
+    .first-div h1{
+        font-size: 35px;
+        color: azure;
+    }
+    .first-div p{
+        
+        color: azure;
+    }
+    .first-div a{
+        text-decoration: none;
+        color: azure;
+        padding: 10px 10px;
+        border-radius: 7px;
+        background-color: darkred;
+    }
+    .first-div a:hover{
+        background-color: #ff3c78;
+    }
+    .cover-photo img{
+        width: 118%;
+    }
+
+    /* BUTTON PART */
+    .containar{
+        display: flex;
+       padding-top: 50px;
+       padding-left: 150px;
+       padding-bottom: 150px;
+    }
+   
+    .button-section{
+       display: flex;
+       flex-direction: column;
+        height: 130px;
+        
+       width: 170px;
+      
+       margin: 15px 20px;
+       padding: 40px 15px;
+       background-color: currentColor;
+       border-radius: 15px;
+
+    }
+    .button-section input{
+        padding:5px 0;
+        margin: 5px;
+        font-size: 20px;
+        
+    }
+    #color{
+        background-color:darkred;
+    }
+
+    /* BLOG  */
+    .blog{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        height: 400px;
+        width: 900px;
+        
+    }
+    .block-contant{
+        padding-top: 15px;
+        margin: 10px;
+        border: 2px solid silver;
+        border-radius: 10px;
+        background-color: aliceblue;
+    }
+    .block-contant p,h6, .image{
+        padding-left: 35px;
+    }
+
+/* SPECIAL FOR TAB  */
+span{
+    padding-left: 600px;
+    padding-bottom: 70px;
+}
+a{
+    text-decoration: none;
+    
+   
+}
+#for-tab{
+    display: none;
+    text-align: center;
+    padding-left: 50%;
+   padding: 5px 5px;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: tomato;
+    border: 1px solid ;
+}
+ /* FOOTER OR END  */
+
+ footer{
+  background-color: currentColor;
+    padding-top: 80px;
+    text-align: center;
+ }
+ footer h2{
+    color: aliceblue;
+ }
+ 
+ footer div{
+    padding-top: 15px;
+
+ }
+ 
+ footer  div a{
+    color: aliceblue;
+    margin: 15px;
+ }
+ .fa-facebook-f , .fa-instagram, .fa-twitter, .fa-youtube{
+       color: darkslateblue;
+       margin: 20px;
+       font-size: 30px;
+ }
+
+
+ /* FOR MOBILE  */
+
+@media  screen and (max-width:576px) {
+    .Head{
+        height: 50%;
+        width: 80%;
+      flex-direction: column;
+    }
+    .cover-photo img{
+        width: 80%;
+        
+    }
+    
+    .containar{
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        
+    }
+   
+    
+    .blog{
+        grid-template-columns: repeat(1, 1fr);
+        width: 50%;
+        height: 100%;
+        align-items: center;
+
+    }
+    footer{
+        width: 140%;
+        height: 100%;
+    }
+   div a{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+   }
+ 
+}
+
+/* FOR TAB  */
+@media screen and (min-width: 577px ) and (max-width:800px){
+    .Head{
+        width: 500px;
+        height: 450px;
+    }
+    .cover-photo img{
+        height: 111%;
+    }
+    .containar{
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+    .button-section-main{
+      
+    }
+    .blog{
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+        width: 60%;
+        height: 60%;
+    }
+    #for-tab{
+        display: block;
+        width: 20%;
+       margin-left: 400px;
+       margin-bottom: 50px;
+    }
+    footer{
+        width: 130%;
+    }
+    footer div a{
+        margin: 5px;
+    }
+       
+    }
+    
