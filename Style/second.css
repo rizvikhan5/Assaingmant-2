@@ -151,6 +151,8 @@ a{
     }
     .cover-photo img{
         width: 80%;
+        position: relative;
+        top:58px
         
     }
     
@@ -206,7 +208,7 @@ a{
         display: block;
         width: 20%;
        margin-left: 400px;
-       margin-bottom: 50px;
+       margin-bottom: 200px;
     }
     footer{
         width: 130%;

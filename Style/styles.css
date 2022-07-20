@@ -159,6 +159,8 @@ a{
     }
     .cover-photo img{
         width: 80%;
+        position: relative;
+        top:58px
     }
     .containar{
         flex-direction: column;
@@ -206,8 +208,8 @@ a{
     #for-tab{
         display: block;
         width: 20%;
-       margin-left: 330px;
-       margin-bottom: 50px;
+        margin-left: 330px;
+        margin-bottom: 200px;
     }
     footer{
         width: 110%;
